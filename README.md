@@ -5,6 +5,18 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 - Front-End;
 - Java;
 
+##
+
+## Trilha Lógica de Programação
+
+### js-html
+- Exercícios de Js.
+
+### site-html
+- Site "Barbearia Alura".
+
+##
+
 ### Observações
 
 - Cada pasta contém seu próprio README.md explicativo;
@@ -15,6 +27,8 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 
 
 ##### Interessante saber: Todas as pastas e seus respectivos arquivos tem upload feito pelo git (diretamente pelo VSCode).
+
+##
 
 Em caso de sugestão ou alguma alteração, fiquem a vontade para entrar em contato! Toda contribuição é bem-vinda!
 
