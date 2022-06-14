@@ -1,11 +1,12 @@
-# ONE
-Todos os exercícios de javascript e testes que consegui desenvolver durante o curso da ONE.
+# JavaScript - Conceitos Iniciais
+
+Todos os exercícios de JavaScript que desenvolvi durante o curso da ONE, trilha Lógica de Programação I - Crie Programas com JavaScript e HTML e Lógica de Programação II - Pratique com desenhos, animações e um jogo.
 
 ### Observações
 
-- Os exercícios estão em ordem alfabética! Não em ordem de aprendizado.
+- Os exercícios estão em ordem alfabética! Não em sequência de aprendizado.
   
-- Tem desde exercícios iniciais, para entender os conceitos:
+- Tem desde exercícios iniciais, para entender os conceitos de:
   - variáveis (utilizamos só var);
   - Tipos primitivos;
     - string;
@@ -19,8 +20,8 @@ Todos os exercícios de javascript e testes que consegui desenvolver durante o c
     - divisão;
   - Operadores de comparação;
     - == (comparação de igualdade);
-    - > (maior);
-    - >= (maior ou igual);
+    - .> (maior);
+    - .>= (maior ou igual);
     - < (menor);
     - <= (menor ou igual);
     - !== (diferente);
@@ -29,15 +30,15 @@ Todos os exercícios de javascript e testes que consegui desenvolver durante o c
     - || (ou);
     - ! (negação);
   - Nomenclatura (camelCase);
-  - if/ else, else if;
+  - if/ else;
   - function;
   - for;
   - canvas;
   - Métodos;
-    - Math.round;
-    - Math.random;
+    - Math.round();
+    - Math.random();
     - Math.PI;
-    - parseInt;
+    - parseInt();
   
 ##### Provavelmente os arquivos de nomenclatura inicial: "exercicio_" serão somente texto, sem interação!
 
