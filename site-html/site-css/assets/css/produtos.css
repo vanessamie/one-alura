@@ -1,0 +1,108 @@
+html {
+    scroll-behavior: smooth; /*rolagem suave*/
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/*---------- NAV ------------*/
+header {
+	background: linear-gradient( black, gray, lightgray, white);
+	padding: 2rem 0;
+}
+
+.caixa {
+	position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 6rem;
+    right: 0rem;
+}
+
+nav li {
+	display: inline;
+    padding: 2rem;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: rgb(8, 8, 44);
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	filter: brightness(1.2);
+}
+/*---------- PRODUTOS ------------*/
+#produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 70%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.cabelo,
+.barba,
+.dois{
+    border: 3px solid rgb(8, 8, 44);
+    box-shadow: 1rem 1rem 2rem gray;
+    text-align: center;
+    width: 30%;
+    padding-inline: 1rem;
+    border-radius: 3%;
+    cursor: pointer;
+    
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 3rem 1rem;
+    clear: left;
+}
+
+h3,
+.preco{
+    font-weight: bold;
+}
+
+.cabelo:hover,
+.barba:hover,
+.dois:hover{
+    border: 2px solid rgb(182, 155, 6);
+    filter: opacity(1.3);
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+/*---------- RODAPÉ ------------*/
+footer{
+    background: linear-gradient(white, black);
+    text-align: center;
+    margin-top: 10rem;
+    background-clip: border-box;
+    padding-bottom: 2rem;
+    filter: opacity(1.2);
+}
+
+.copy{
+    color: whitesmoke;
+}
