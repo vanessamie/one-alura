@@ -16,14 +16,14 @@ header {
 
 .caixa {
 	position: relative;
-    width: 70%;
-    margin: 0 auto;
+	width: 100%;
 }
 
 nav {
 	position: absolute;
-	top: 4rem;
+	top: 6rem;
     right: 0rem;
+	left: 50%;
 }
 
 nav li {
@@ -37,6 +37,10 @@ nav a {
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+}
+
+.logo{
+	margin-left: 10rem;
 }
 
 nav a:hover {
@@ -71,13 +75,12 @@ form label, form legend {
 }
 
 fieldset > select{
-	width: 20%;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	margin-left: 2rem;
+	padding: 0.5rem
 }
 
 .enviar {
-	width:30%;
 	margin-inline: auto;
 	padding: 1rem;
 	background: #C78C19;
@@ -128,4 +131,60 @@ footer{
 
 .copy{
     color: whitesmoke;
+}
+
+/*---------- RESPONSIVIDADE ------------*/
+
+@media screen and (max-width: 480px) {
+	/*---------- RESET ------------*/
+	*,
+	body,
+	.caixa,
+	#nav,
+	body main,
+	form,
+	.input-padrao,
+	fieldset,
+	.checkbox,
+	.horario,
+	.horario-funcionamento,
+	#rodape{
+		width: 100%;
+		margin: initial;
+		padding: initial;
+	}
+
+	/*---------- NAV ------------*/
+	nav{
+		position: static;
+	}
+
+	ul li{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		padding: 0;
+	}
+
+	.logo{
+		margin-inline: center;
+	}
+	/*---------- RODAPÉ ------------*/
+    #rodape,
+    .copy{
+        text-align: center;
+    }
+
+	.logo{
+        margin-inline: center;
+    }
+	/*---------- CONTATO ------------*/
+	main{
+		width: 100%;
+	}
+	
+	.horario{
+		width: 100%;
+		margin-inline: auto;
+	}
 }

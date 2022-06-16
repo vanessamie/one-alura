@@ -16,7 +16,7 @@ header {
 
 .caixa {
 	position: relative;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -24,6 +24,7 @@ nav {
 	position: absolute;
 	top: 6rem;
     right: 0rem;
+    left: 50%;
 }
 
 nav li {
@@ -37,6 +38,10 @@ nav a {
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
+}
+
+.logo{
+    margin-left: 10rem;
 }
 
 nav a:hover {
@@ -106,3 +111,68 @@ footer{
 .copy{
     color: whitesmoke;
 }
+
+/*---------- RESPONSIVIDADE ------------*/
+
+@media screen and (max-width: 480px) {
+    /*---------- RESET ------------*/
+        .caixa,
+        nav,
+        #produtos,
+        .wrapper,
+        .cabelo,
+        .barba,
+        .dois,
+        .titulo-principal,
+        h3,
+        .preco,
+        footer,
+        .copy{
+            width: auto;
+            margin: initial;
+            padding: initial;
+            display: initial;
+        }
+        /*---------- NAV ------------*/
+        nav{
+            position: static;
+        }
+
+        ul li{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 0;
+        }
+    
+        .logo{
+            margin-inline: center;
+        }
+        /*---------- PRODUTOS ------------*/
+        #produtos,
+        #wrapper,
+        .cabelo,
+        .barba,
+        .dois{
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        .titulo-principal{
+            margin-bottom: 2rem;
+        }
+        /*---------- RODAPÉ ------------*/
+        #rodape,
+        .copy{
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .logo-branco{
+            width: 50%;
+            margin-inline: auto;
+        }
+    }
+    

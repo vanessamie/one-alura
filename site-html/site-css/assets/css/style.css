@@ -157,3 +157,74 @@ footer{
 .copy{
     color: whitesmoke;
 }
+
+/*---------- RESPONSIVIDADE ------------*/
+
+@media screen and (max-width: 480px) {
+/*---------- RESET ------------*/
+    .caixa,
+    #banner,
+    #sobre-nos,
+    .titulo-principal,
+    #beneficios,
+    .caixa-video,
+    #mapa,
+    .mapa,
+    #rodape{
+        width: auto;
+        margin: initial;
+        padding: initial;
+    }
+    /*---------- NAV ------------*/
+    nav{
+        position: static;
+        margin-inline: auto;
+    }
+
+    .logo{
+        margin-inline: center;
+    }
+    /*---------- HOME ------------*/
+    .nome{
+        text-align: center;
+        margin-inline: auto;
+    }
+
+    .banner{
+        height: 10rem;
+    }
+    /*---------- SOBRE NÓS ------------*/
+    .utensilios{
+        width: 10rem;
+        margin: 0 1rem;
+    }
+
+    img ~ p{
+        margin-top: 0;
+        margin-inline: 2rem;
+        line-height: 1.8rem;
+        text-align: start;
+        text-align: justify;
+    }
+    /*---------- BENEFÍCIOS ------------*/
+    .titulo-principal{
+        margin: 1rem 0;
+    }
+
+    #beneficios,
+    .imagembeneficios{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    /*---------- MAPA ------------*/
+    .mapa{
+        margin-top: 2rem;
+        width: 100%;
+    }
+    /*---------- RODAPÉ ------------*/
+    #rodape,
+    .copy{
+        text-align: center;
+    }
+}
