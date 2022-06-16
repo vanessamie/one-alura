@@ -12,11 +12,17 @@ Conceitos aprendidos e aplicados:
 
 - O que é HTML;
 - Estrutura básica HTML;
+- Tags;
+- <strong> e <em>;
+- Propriedade lang;
 - Como inspecionar elementos no navegador;
+- Cabeçalho;
+- Rodapé;
 - O que é CSS;
 - Propriedades e valores;
 - Definir estilos para elementos utilizando o CSS;
-- Desenvolvimento de uma página Web;
+- Imagem como background pelo CSS;
+- Tabela Unicode;
 - Reset.css;
 - Posicionamento pelo CSS;
 - Diferença entre inline e block;
@@ -27,6 +33,11 @@ Conceitos aprendidos e aplicados:
 - Hierarquia do CSS;
 - Transformações e Transições;
 - Criação e estilização de tabela;
+- Propriedade float;
+- Propriedade clear;
+- Medidas Proporcionais;
+- Responsividade;
+- Desenvolvimento de uma página Web.
 
 
 ##
