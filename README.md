@@ -14,6 +14,7 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 
 ### site-html
 - Site "Barbearia Alura".
+- https://vanessamie.github.io/barbearia-alura/
 
 ##
 
