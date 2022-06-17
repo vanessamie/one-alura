@@ -21,9 +21,9 @@ header {
 
 nav {
 	position: absolute;
-	top: 3.5rem;
+	top: 3.6rem;
     right: 0rem;
-    left: 30%;
+    left: 33.37%;
 }
 
 nav li {
@@ -122,6 +122,7 @@ ul {
 }
 
 .video{
+    width: 50%;
     margin: 5rem auto;
     margin-bottom: 0;
     display: flex;
@@ -132,7 +133,7 @@ ul {
 
 /*---------- MAPA ------------*/
 #mapa{
-    width: 80%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     margin-inline: auto;
@@ -174,11 +175,20 @@ footer{
         width: auto;
         margin: initial;
         padding: initial;
+        display: initial;
     }
-    /*---------- NAV ------------*/
-    nav{
+     /*---------- NAV ------------*/
+     nav{
         position: static;
         margin-inline: auto;
+        padding-inline: 3rem;
+    }
+
+    ul li{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0.5rem;
     }
 
     .logo{
@@ -216,6 +226,9 @@ footer{
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+    .video{
+        width: 100%;
     }
     /*---------- MAPA ------------*/
     .mapa{
