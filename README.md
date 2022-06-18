@@ -18,7 +18,10 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 
 ### css-flex
 - Site "Cursos Alurinha";
-- 
+- https://vanessamie.github.io/flex-box/
+
+### ccs-grid
+- Site "Alura Store";
 
 ##
 
@@ -27,7 +30,7 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 - Cada pasta contém seu próprio README.md explicativo;
 - O nome da pasta mostra seu principal conteúdo (Exemplo: js-html, são arquivos criados em JavaScript, porém para abrirem no navegador);
 - O portifólio ainda está em desenvolvimento!
-- Curso inciado em  05/04/2022, com previsão de término em 07/10/2022, porém com extensão A PARTIR DE 10/10/2022;
+- Curso inciado em  05/04/2022, com previsão de término em 07/10/2022, porém com extensão a partir de 10/10/2022;
 - Em 08/06/2022 dei início a trilha de Front-End.
 
 
