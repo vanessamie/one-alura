@@ -13,8 +13,12 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 - Exercícios de Js.
 
 ### site-html
-- Site "Barbearia Alura".
+- Site "Barbearia Alura";
 - https://vanessamie.github.io/barbearia-alura/
+
+### css-flex
+- Site "Cursos Alurinha";
+- 
 
 ##
 
