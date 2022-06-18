@@ -4,7 +4,7 @@ Site "Mie's Barber Shop", criado em alusão ao proposto "Barbearia Alura", duran
 
 - HTML5 e CSS3 parte 1: crie uma página da Web;
 - HTML5 e CSS3 parte 2: posicionamento, listas e navegação;
-- HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas;
+- HTML5 e CSS3 parte 3: trabalhando com formulários e tabelas e;
 - HTML5 e CSS3 parte 4: avançando no CSS.
 
 ##
@@ -13,7 +13,7 @@ https://vanessamie.github.io/barbearia-alura
 
 ##
 
-Conceitos aprendidos e aplicados:
+## Conceitos aprendidos e aplicados:
 
 - O que é HTML;
 - Estrutura básica HTML;
@@ -44,8 +44,9 @@ Conceitos aprendidos e aplicados:
 - Responsividade;
 - Desenvolvimento de uma página Web.
 
-
 ##
+
+### Observações
 
 ###### Eu não modfiquei o logo (Que ainda está com o nome "ALURA", a intenção neste projeto não era a modificação de imagens ou logos, mas poderei modificar no futuro!).
 

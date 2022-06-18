@@ -1,27 +1,34 @@
 # ONE - ORACLE NEXT EDUCATION e ALURA
 
 Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante trilhas de:
-- Lógica de Programação;
+- Iniciante em Programação;
 - Front-End;
 - Java;
 
 ##
 
-## Trilha Lógica de Programação
+## Trilha Iniciante em Programação
 
 ### js-html
-- Exercícios de Js.
+- Exercícios de JavaScript.
 
 ### site-html
 - Site "Barbearia Alura";
 - https://vanessamie.github.io/barbearia-alura/
 
-### css-flex
+### javascript
+- Site "Aparecida Nutricionista";
+- 
+
+## Trilha Front End
+
+### site-flexbox
 - Site "Cursos Alurinha";
 - https://vanessamie.github.io/flex-box/
 
 ### ccs-grid
 - Site "Alura Store";
+- 
 
 ##
 
@@ -30,11 +37,18 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 - Cada pasta contém seu próprio README.md explicativo;
 - O nome da pasta mostra seu principal conteúdo (Exemplo: js-html, são arquivos criados em JavaScript, porém para abrirem no navegador);
 - O portifólio ainda está em desenvolvimento!
-- Curso inciado em  05/04/2022, com previsão de término em 07/10/2022, porém com extensão a partir de 10/10/2022;
-- Em 08/06/2022 dei início a trilha de Front-End.
+- Curso inciado em  07/04/2022, com previsão de término em 07/10/2022, porém com extensão a partir de 10/10/2022;
+- Início da Trilha Iniciante em Prgramação: 07/04/2022;
+- Início da Trilha Front-End: 08/06/2022;
+- Início da Trilha Java: 10/08/2022.
 
+##
+
+### Observações
 
 ##### Interessante saber: Todas as pastas e seus respectivos arquivos tem upload feito pelo git (diretamente pelo VSCode).
+
+##### Todos os projetos web contém sua respectiva pasta no GitHub para acesso à page, disponibilizada pelo mesmo! Seu conteúdo também pode ser acessado por este caminho!
 
 ##
 

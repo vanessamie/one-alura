@@ -56,11 +56,11 @@ Site "Cursos Alurinha", criado durante trilha:
 - Responsividade;
 - Como acessar os filhos, ou múltiplos;
 
-
-
 ##
 
-###### Eu não modfiquei o logo ou coloquei links, pois a intenção neste projeto não era esta, porém segue como projeto para o futuro!).
+### Observações
+
+###### Eu não modfiquei o logo ou coloquei links, pois a intenção neste projeto não era esta, porém segue como projeto para o futuro!.
 
 ##
 
