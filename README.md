@@ -18,7 +18,7 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 
 ### javascript
 - Site "Aparecida Nutricionista";
-- 
+- https://vanessamie.github.io/javascript/
 
 ## Trilha Front End
 
