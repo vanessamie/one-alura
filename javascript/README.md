@@ -8,7 +8,7 @@ Site "Aparecida Nutricionista", criado durante trilha:
 
 ## Conceitos aprendidos e aplicados:
 - Estrutura;
-- Como acessar e modificar o HTML com querySelector;
+- Como acessar e modificar o HTML com querySelector e querSelectorAll;
 - Boas práticas;
 - Reconhecer erros pelo console do desenvolvedor;
 - Utilização do console.log;
@@ -23,6 +23,7 @@ Site "Aparecida Nutricionista", criado durante trilha:
 - toFixed();
 - Criando e adicionando tabela e itens;
 - addEventListener();
+- Evento click;
 - .value;
 - event.preventDefault();
 - Função anônima;
@@ -31,7 +32,39 @@ Site "Aparecida Nutricionista", criado durante trilha:
 - event shortcut;
 - onclick;
 - onmouseover;
-- (parei no 4);
+- Criação de objeto;
+- Validação de informações;
+- Enviando menssagem de erro;
+- .push();
+- forEach();
+- innerHTML;
+- .remove();
+- Utilização da palavra reservada this;
+- Evento dblclick;
+- Event Bubbling;
+- .target;
+- parentNode;
+- opacity e transition no CSS;
+- setTimeout();
+- Evento input;
+- Expressões regulares;
+- new RegExp();
+- .test();
+- flags;
+- .substring() ou .substr();
+- AJAX;
+- new XMLHttpRequest();
+- .open();
+- Evento GET;
+- .send();
+- Evento load;
+- Propriedade .responseText;
+- Formato de dados JSON;
+- .parse();
+- .preventDefault();
+- .reset();
+- Erros de Requisição;
+- .status;
 - 
   
 

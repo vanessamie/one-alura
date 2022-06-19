@@ -1,48 +1,31 @@
 //adicionar paciente
 
-var botaoAdicionar = document.querySelector('#adicionar-paciente');
-
-
-
-botaoAdicionar.addEventListener('click', function(event) {
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+botaoAdicionar.addEventListener("click", function(event) {
     event.preventDefault();
 
-    var form = document.querySelector('#form-adiciona');
+    var form = document.querySelector("#form-adiciona");
 //extraindo o nome do paciente
-    var paciente = obtemPaciente(form);
-//cria tr e td do paciente
-    var pacienteTr = criaTabela(paciente);
+    var paciente = obtemPacienteDoFormulario(form);
 
     var erros = validaPaciente(paciente);
 
-    if(erros.length > 0){
+    if (erros.length > 0) {
         exibeMensagensDeErro(erros);
+
         return;
     }
 
-    
+    adicionaPacienteNaTabela(paciente);
 
-//adiciona o paciente na tabela
-    var tabela = document.querySelector('#tabela-pacientes');
-    tabela.appendChild(pacienteTr);
     form.reset();
 
     var mensagensErro = document.querySelector("#mensagens-erro");
     mensagensErro.innerHTML = "";
+
 });
 
-function exibeMensagensDeErro(erros){
-    var ul = document.querySelector("#mensagens-erro");
-    ul.innerHTML = "";
-    
-    erros.forEach(function(errado){
-        var li = document.createElement("li");
-        li.textContent = errado;
-        ul.appendChild(li);
-    });
-}
-
-function obtemPaciente(form){
+function obtemPacienteDoFormulario(form) {
 
     var paciente = {
         nome: form.nome.value,
@@ -51,53 +34,69 @@ function obtemPaciente(form){
         gordura: form.gordura.value,
         imc: calculaImc(form.peso.value, form.altura.value)
     }
+
     return paciente;
-//extraindo informações do paciente;
 }
 
-function criaTabela(paciente){
-
-    var pacienteTr = document.createElement('tr');
+function montaTr(paciente) {
+    var pacienteTr = document.createElement("tr");
     pacienteTr.classList.add("paciente");
 
-    var nomeTd = addDados(paciente.nome, "info-nome");
-    var pesoTd = addDados(paciente.peso, "info-peso");
-    var alturaTd = addDados(paciente.altura, "info-altura");
-    var gorduraTd = addDados(paciente.gordura, "info-gordura");
-    var imcTd = addDados(paciente.imc, "info-imc");
-
-    pacienteTr.appendChild(nomeTd);
-    pacienteTr.appendChild(pesoTd);
-    pacienteTr.appendChild(alturaTd);
-    pacienteTr.appendChild(gorduraTd);
-    pacienteTr.appendChild(imcTd);
+    pacienteTr.appendChild(montaTd(paciente.nome, "info-nome"));
+    pacienteTr.appendChild(montaTd(paciente.peso, "info-peso"));
+    pacienteTr.appendChild(montaTd(paciente.altura, "info-altura"));
+    pacienteTr.appendChild(montaTd(paciente.gordura, "info-gordura"));
+    pacienteTr.appendChild(montaTd(paciente.imc, "info-imc"));
 
     return pacienteTr;
 }
 
-function addDados(dado, classe){
-    var td = document.createElement('td');
-
-    td.textContent = dado;
+function montaTd(dado, classe) {
+    var td = document.createElement("td");
     td.classList.add(classe);
+    td.textContent = dado;
 
     return td;
 }
 
-function validaPaciente(paciente){
+function validaPaciente(paciente) {
 
     var erros = [];
 
-    if(paciente.nome.length == 0) erros.push("O campo nome não pode estar vazio!");
-
-    if(!validaPeso(paciente.peso))
+    if (paciente.nome.length == 0) {
+        erros.push("O nome não pode ser em branco");
+    }
+    if (paciente.gordura.length == 0) {
+        erros.push("A gordura não pode ser em branco");
+    }
+    if (paciente.peso.length == 0) {
+        erros.push("O peso não pode ser em branco");
+    }
+    if (paciente.altura.length == 0) {
+        erros.push("A altura não pode ser em branco");
+    }
+    if (!validaPeso(paciente.peso)) {
         erros.push("Peso é inválido");
-    
-    if(!validaAltura(paciente.altura))
+    }
+    if (!validaAltura(paciente.altura)) {
         erros.push("Altura é inválida");
-
-    if(paciente.gordura.length == 0) erros.push("O campo gordura está vazio!");
-
+    }
     return erros;
 }
 
+function exibeMensagensDeErro(erros) {
+    var ul = document.querySelector("#mensagens-erro");
+    ul.innerHTML = "";
+
+    erros.forEach(function(erro) {
+        var li = document.createElement("li");
+        li.textContent = erro;
+        ul.appendChild(li);
+    });
+}
+
+function adicionaPacienteNaTabela(paciente) {
+    var pacienteTr = montaTr(paciente);
+    var tabela = document.querySelector("#tabela-pacientes");
+    tabela.appendChild(pacienteTr);
+}

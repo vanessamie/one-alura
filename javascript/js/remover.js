@@ -1,11 +1,11 @@
-var pacientes = document.querySelector("table");
+var pacientes = document.querySelectorAll(".paciente");
 
-pacientes.addEventListener("dblclick", function(event) {
-    event.target.parentNode.classList.add(".fadeOut");
+var tabela = document.querySelector("#tabela-pacientes");
 
-        
-    setTimeout(function(){
+tabela.addEventListener("dblclick", function(event) {
+    event.target.parentNode.classList.add("fadeOut");
+
+    setTimeout(function() {
         event.target.parentNode.remove();
-    },1500);
+    }, 500);
 });
-
