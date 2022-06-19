@@ -65,12 +65,13 @@ Site "Aparecida Nutricionista", criado durante trilha:
 - .reset();
 - Erros de Requisição;
 - .status;
-- 
   
 
 ##
 
+### Observações
 
+- Não foram feitas personalizações pois a intenção do curso era o aprendizado do JavaScript, porém segue como plano para o futuro a melhora do projeto e sua personalização!
 
 ##
 
