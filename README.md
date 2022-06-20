@@ -28,7 +28,7 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 
 ### ccs-grid
 - Site "Alura Store";
-- 
+- https://vanessamie.github.io/site-grid/
 
 ##
 
