@@ -111,6 +111,17 @@ footer{
 .copy{
     color: whitesmoke;
 }
+/*----- COPYRIGHT -----*/
+.social-links {
+    display: flex;
+    width: 20%;
+    margin-inline: auto;
+    justify-content: space-between;
+}
+
+.git {
+	fill: #f5f5f5;
+}
 
 /*---------- RESPONSIVIDADE ------------*/
 
