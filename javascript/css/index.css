@@ -157,3 +157,25 @@ button[disabled=disabled], button:disabled {
 .invisivel{
 	display: none;
 }
+
+/*----- FOOTER -----*/
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-inline: auto;
+	margin-top: 5rem;
+	gap: 2rem;
+}
+
+.social-links {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+.git {
+	fill: #04324c;
+}

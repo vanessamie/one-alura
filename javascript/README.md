@@ -73,9 +73,27 @@ Site "Aparecida Nutricionista", criado durante trilha:
 
 - Não foram feitas personalizações pois a intenção do curso era o aprendizado do JavaScript, porém segue como plano para o futuro a melhora do projeto e sua personalização!
 
+- Local de busca dos pacientes:
+https://api-pacientes.herokuapp.com/pacientes
+
 ##
 
 Em caso de sugestão ou alguma alteração, fiquem a vontade para entrar em contato! Toda contribuição é bem-vinda!
 
 Gratidão à ONE, Alura e Instrutor Douglas Quintanilha.
 
+##
+
+### Para saber mais:
+
+- Expressões regulares: capturando textos de forma mágica:
+https://cursos.alura.com.br/course/expressoes-regulares
+
+- Como funciona o import e export do JavaScript?
+https://www.alura.com.br/artigos/como-funciona-o-import-e-export-do-javascript
+
+- Gulp
+https://gulpjs.com/
+
+- Codewars (para treinar Js):
+https://www.codewars.com/
