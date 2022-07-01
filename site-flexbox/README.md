@@ -1,6 +1,6 @@
 # Display Flex
 
-Site "Cursos Alurinha", criado durante trilha:
+Site "Cursos Alurinha", criado durante Trilha Front-End, curso:
 - Flexbox: posicione elementos na tela.
 
 ##

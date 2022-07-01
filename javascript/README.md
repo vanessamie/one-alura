@@ -1,8 +1,11 @@
 # JavaScript - página da web
 
-Site "Aparecida Nutricionista", criado durante trilha:
+Site "Aparecida Nutricionista", criado durante Trilha Iniciante em Programção, curso:
 - JavaScript: programando na linguagem da web.
-- https://vanessamie.github.io/javascript/
+
+##
+
+https://vanessamie.github.io/javascript/
 
 ##
 

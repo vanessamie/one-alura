@@ -1,6 +1,6 @@
 # JavaScript - Conceitos Iniciais
 
-Todos os exercícios de JavaScript que desenvolvi no curso da ONE com Alura, durante trilhas:
+Todos os exercícios de JavaScript que desenvolvi no curso da ONE - Oracle Next Education e Alura, durante trilha Iniciante em Programação, cursos:
 
 - Lógica de Programação I - Crie Programas com JavaScript e HTML e;
 -  Lógica de Programação II - Pratique com desenhos, animações e um jogo.

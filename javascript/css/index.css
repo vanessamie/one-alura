@@ -168,7 +168,8 @@ button[disabled=disabled], button:disabled {
     width: 80%;
     margin-inline: auto;
 	margin-top: 5rem;
-	gap: 2rem;
+	gap: 1rem;
+	color: #0c8cd3;
 }
 
 .social-links {

@@ -20,6 +20,16 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 - Site "Aparecida Nutricionista";
 - https://vanessamie.github.io/javascript/
 
+##
+
+### Challenge 1 - Decodificador de texto
+- https://vanessamie.github.io/Challenge/
+
+### Challenge 2 - Jogo da Forca
+- Em desenvolvimento.
+
+##
+
 ## Trilha Front End
 
 ### site-flexbox
@@ -30,13 +40,25 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 - Site "Alura Store";
 - https://vanessamie.github.io/site-grid/
 
+## css-bem
+- Site "Fruta & Fruto";
+- https://vanessamie.github.io/css-bem/
+
+##
+
+### Sprint 1 - Portfólio
+- https://vanessamie.github.io/portfolio/
+
+### Sprint 2 - E-commerce
+- Em desenvolvimento.
+
 ##
 
 ### Observações
 
 - Cada pasta contém seu próprio README.md explicativo;
 - O nome da pasta mostra seu principal conteúdo (Exemplo: js-html, são arquivos criados em JavaScript, porém para abrirem no navegador);
-- O portifólio ainda está em desenvolvimento!
+- Este portfólio ainda está em desenvolvimento!
 - Curso inciado em  07/04/2022, com previsão de término em 07/10/2022, porém com extensão a partir de 10/10/2022;
 - Início da Trilha Iniciante em Prgramação: 07/04/2022;
 - Início da Trilha Front-End: 08/06/2022;
