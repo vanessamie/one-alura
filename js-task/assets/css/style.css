@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    font-size: 62.5%;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --background: linear-gradient(130deg, rgb(97, 4, 97),70%, hsl(167, 85%, 35%));
+    --background-glass: hsla(300, 6%, 93%, 0.1);
+    --background-input: hsl(52, 67%, 89%);
+
+    --border: hsla(0, 0%, 100%, 0.1);
+    --box-shadow: 5px 5px 10px 0 hsla(330, 71%, 46%, 0.37);
+    --color: hsl(337, 93%, 18%);
+}
+
+body {
+    background: var(--background);
+    font-size: 5rem;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.todo-list {
+    backdrop-filter: blur(4px);
+    background: var(--background-glass);
+    border-radius: 1rem;
+
+    box-shadow: var(--box-shadow);
+    font-family: "Space Mono", monospace;
+    max-width: 70vw;
+
+    min-width: 50rem;
+    min-height: 30rem;
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.title {
+    border-bottom: 2px solid var(--color);
+    color: var(--color);
+    font-family: "BioRhyme", serif;
+
+    font-size: 2.5rem;
+    padding-left: 1.5rem;
+}
+
+.form {
+    display: flex;
+    gap: 0.5rem;
+
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.form__input,
+.form__button {
+    border: 1px;
+    border-radius: 0.5rem;
+
+    font-size: 1.3rem;
+    outline: none;
+    padding: 1rem;
+}
+
+.form__input {
+    background-color: var(--background-glass);
+    border-color: var(--border);
+    
+    color: var(--color);
+    width: calc(60% - 1rem);
+}
+
+.form__button {
+    background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+    background-size: 200% auto;
+    text-transform: uppercase;
+
+    box-shadow: var(--box-shadow);
+    color: var(--background-input);            
+    cursor: pointer;
+
+    display: block;
+    transition: 0.5s;
+    width: calc(40% - 2rem);
+}
+
+.form__button:hover {
+    background-position: right center;
+    color: var(--background-input);
+    text-decoration: none;
+}
+
+.list {
+    margin-inline: 1rem;
+    padding: 0;
+    width: calc(100% - 2rem);
+}
+
+.task {
+    background: var(--background-glass);
+    border-radius: 0.5rem;
+    font-size: 2.5rem;
+    
+    color: var(--color);
+    display: flex;
+    font-weight: 700;
+    
+    gap: 0.5rem;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+  
+.check-button,
+.delete-button {
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+    border: none;
+    background-size: 200% auto;
+
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    color: var(--background-input);
+
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    
+    outline: none;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.check-button:hover {
+    background-position: right center;
+    color: var(--background-input);
+    text-decoration: none;
+}
+
+.task.done .check-button {
+    background-color: var(--background-glass);
+    color: var(--background-input);
+}
+
+.task.done .content {
+    text-decoration: line-through;
+}
+  
