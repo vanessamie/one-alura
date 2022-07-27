@@ -1,7 +1,8 @@
 # To Do List
 
-To Do List, criado durante Trilha Front-End, curso:
-- JS na Web: Manipule o D.O.M. com JavaScript.
+To Do List, criado durante Trilha Front-End, cursos:
+- JS na Web: Manipule o D.O.M. com JavaScript;
+- JS na Web: Armazenando dados no navegador.
 
 ##
 
@@ -28,6 +29,7 @@ To Do List, criado durante Trilha Front-End, curso:
 - .appendChild();
 - .addEventListener();
 - template strings;
+- template literals;
 - .innerText;
 - .target;
 - .parentElement;
@@ -36,16 +38,25 @@ To Do List, criado durante Trilha Front-End, curso:
 - export default;
 - import;
 - IIFE (**Immediately Invoked Function Expression** ou “Função de Invocação Imediata”);
-- Same Origin Police e CORS.
-
-
-##
-
-### Observações
-
-###### Alterei todo o CSS.
-
-###### Criei o arquivo "style.css", importando a url de todos os arquivos *.css, deixando o <head> mais organizado.
+- Same Origin Police e CORS;
+- type="module";
+- datetime-local;
+- Biblioteca moment();
+- Desestruturar objetos;
+- API de armazenamento do navegador;
+- .setItem();
+- JSON.stringify();
+- .push();
+- sessionStorage;
+- localStorage;
+- JSON.parse();
+- spread operator;
+- .diff();
+- .indexOf();
+- .format();
+- .sort();
+- ! (operador de negação);
+- splice().
 
 ##
 
@@ -68,4 +79,10 @@ https://www.alura.com.br/artigos/capturando-valor-do-input-introducao-a-seletore
 
 - Como utilizar o terminal integrado do Visual Studio Code
 https://www.alura.com.br/artigos/como-utilizar-terminal-integrado-visual-studio-code
+
+- Desestruturação JavaScript
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
+
+- Introdução às Web APIs
+https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs/Introduction
 

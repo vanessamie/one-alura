@@ -30,6 +30,10 @@ Regex, conceitos aprendidos e aplicados durante Trilha Front-End, curso:
   - \B - Non word boundary;
   - (?:) - Non-capturing groups;
   - | - pipe;
+  - [^] - ;
+  - \W - non-word char;
+  - \D - non-digit;
+  - 
 
 
 - \ ("escapa" qualquer char):
@@ -59,7 +63,12 @@ Regex, conceitos aprendidos e aplicados durante Trilha Front-End, curso:
   - [123] == 1, 2 ou 3;
   - [^,]+ - qualquer caracter != ",";
   - \w == [A-Za-z0-9_];
+  - [^>] - selecionar tudo o que não é ">";
   - 
+
+
+- Back-references:
+  - \1 - igual ao primeiro grupo;
 
 
 - Âncoras (marcam uma posição específica no alvo, não podem ser utilizadas com quantifiers):
@@ -67,6 +76,9 @@ Regex, conceitos aprendidos e aplicados durante Trilha Front-End, curso:
   - ^ - colocado no início, para determinar o início da string alvo;
   - $ - colocado no final, para determinar o final da string alvo;
   - \B - deve ser colocado no início e final, para localizar uma sílaba dentro de uma palavra;
+  - \W == [^\w] - seleiona tudo o que não é \w;
+  - \D == [^\d]- seleciona tudo o que não é \d;
+  - 
 
 
 ##
@@ -144,6 +156,84 @@ Regex, conceitos aprendidos e aplicados durante Trilha Front-End, curso:
 ^([\w\s]+)\|(?:\d\d\/\d\d\/\d\d\d\d)\|([\w\s]+)\|(\d{1,4})\|(\d{5}-\d{3})\|(?:[\w\s]{10,})$
 
 
+- Utilizando back-reference:
+  - Entrada:
+<h1 id="regex" class="form">Expressões regulares não são tão difíceis.</h2>
+
+  - Saída:
+Como inicia com h1, não vai selecionar. Só dará match se ambos estiverem em h1 ou h2.
+
+<(h1|h2).+?>([\w\sõãí.]+)<\/\1>
+
+
+- Mensagem criptografada:
+  - Entrada: Z171PZ7AZ23PZ7819AZ78GZ1AZ99IZ34O
+  - Saída: P | A | P | A | G | A | I | O
+
+[^Z\d]
+
+
+- REGEX no JavaScript:
+
+- Utilizando .replace():
+
+var anoMesDia = '2007-12-31';
+
+var exp = /-/g
+
+anoMesDia = anoMesDia.replace(exp, '/');
+
+- resultado:
+
+'2007/12/31';
+
+
+- Utilizando .split():
+  - Extrair valores para que seja possível somá-los.
+
+var arquivo = '100,200-150,200;20';
+
+var exp = /[,;-]/;
+
+var valores = arquivo.split(exp);
+
+- resultado:
+
+["100", "200", "150", "200", "20"]
+
+
+- Utilizando .match():
+
+var codigos = 'A121B12112C12212F12G01';
+
+var exp = /[A-Za-z]\d+/g
+
+var codigosExtraidos = codigos.match(exp);
+
+- resultado:
+
+["A121", "B12112", "C12212", "F12", "G01"]
+
+
+- Utilizando atributo pattern (em input no HTML5):
+
+  - Para que o input aceite somente números:
+
+
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title>Testando pattern</title>
+</head>
+<body>
+    <form>
+        <input pattern="[0-9]*">
+        <input type="submit" value="Enviar dados">
+    </form>
+</body>
+
+
+
 
 
 ##
@@ -171,4 +261,8 @@ http://www.goulart.pro.br/cbasico/Calculo_dv.htm
 https://www.cjdinfo.com.br/utilitario-calculo-digito-modulo-11
 
 
+- Regex Engine
+https://regexr.com/
 
+- Regex Engine
+https://regex101.com/
