@@ -12,18 +12,18 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 ### js-html
 - Exercícios de JavaScript.
 
-### site-html
+### html-css
 - Site "Barbearia Alura";
 - https://vanessamie.github.io/barbearia-alura/
 
-### javascript
+### html-js
 - Site "Aparecida Nutricionista";
 - https://vanessamie.github.io/javascript/
 
 ##
 
 ### Challenge 1 - Decodificador de texto
-- https://vanessamie.github.io/Challenge/
+- https://vanessamie.github.io/criptografador/
 
 ### Challenge 2 - Jogo da Forca
 - Em desenvolvimento.
@@ -36,7 +36,7 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 - Site "Cursos Alurinha";
 - https://vanessamie.github.io/flex-box/
 
-### ccs-grid
+### site-grid
 - Site "Alura Store";
 - https://vanessamie.github.io/site-grid/
 
@@ -50,7 +50,7 @@ Projetos e Exercícios Criados a partir dos conhecimentos adquiridos durante tri
 - https://vanessamie.github.io/portfolio/
 
 ### Sprint 2 - E-commerce
-- Em desenvolvimento.
+- https://vanessamie.github.io/imagine-linhas/
 
 ##
 
